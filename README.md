@@ -11,18 +11,34 @@ Reproducible research: Multiresolution Compressive Feature Fusion for Spectral I
 
 ### How to run the code
 
-Download and uncompress the `RecursiveMyriadBasedFilters` folder. To generate Figures and Tables in the paper, under **MATLAB** environment, navigate to the `RecursiveMyriadBasedFilters` folder and follow the instructions described below
+Download and uncompress the `FeatureFusionHDSP_UIS` folder. Under **MATLAB** environment, navigate to the `FeatureFusionHDSP_UIS` folder and follow the instructions described below
 
 #### Figure 3
 
-To generate Figures 4(a)-4(e) run, in MATLAB, 
+To generate Figures 3, in MATLAB, 
 
-	>> FigTrainingBehavior.m
-
-To generate Figures 4(f) run 
-
-	>> FigComputationalCost.m
-
+	>> figure3_results.m
+ 	
 #### Table I
 
-	>> TableNoisyChirp.m
+	>> table1_results.m
+
+### Platform
+
+* CentOS 7 Operating System, MATLAB R2017b
+
+## License
+
+This code package is licensed under the GNU GENERAL PUBLIC LICENSE (version 3)
+
+## Author
+
+Juan Marcos Ramírez Rondón
+
+### Contact
+
+[Juan Marcos Ramirez](juanra@ula.ve)
+
+## Date
+
+March 22, 2019
