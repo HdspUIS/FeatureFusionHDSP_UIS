@@ -29,7 +29,7 @@ To generate Figures 3, in MATLAB,
 
 ## License
 
-This code package is licensed under the GNU GENERAL PUBLIC LICENSE (version 3)
+This code package is licensed under the GNU GENERAL PUBLIC LICENSE (version 3)- see the [LICENSE](LICENSE) file for details
 
 ## Author
 
