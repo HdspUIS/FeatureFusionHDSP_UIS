@@ -1,0 +1,18 @@
+clear all;
+close all;
+
+G = MakeONFilter('Symmlet',8);
+
+row = 128;
+col = 128;
+level = 1;
+for i = 1:row;
+    i
+    for j = 1:col;
+        wc = zeros(row,col);
+        wc(i,j) = 1;
+        iw = IWT2_PO(wc,level,G);
+        A(:,(i-1)*row + col) = single(iw(:));
+    end
+end
+        
