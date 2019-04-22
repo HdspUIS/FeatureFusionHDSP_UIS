@@ -7,8 +7,6 @@ Compressive spectral imaging (CSI) has emerged as an alternative acquisition fra
 
 ## Suplementary Material
 
-Reproducible research: Multiresolution Compressive Feature Fusion for Spectral Image Classification
-
 ### How to run the code
 
 Download and uncompress the `FeatureFusionHDSP_UIS` folder. Under **MATLAB** environment, navigate to the `FeatureFusionHDSP_UIS` folder and follow the instructions described below
